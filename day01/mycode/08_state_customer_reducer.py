@@ -20,7 +20,7 @@ class CustomReducerState(TypedDict):
 
 
 def update_metadata(state: CustomReducerState) -> dict:
-    return {"metadata": {"session":"abcde","timestamp": "2025-01-01", "version": "1.0"}}
+    return {"metadata": {"timestamp": "2025-01-01", "version": "1.0"}}
 
 
 def run_demo():
